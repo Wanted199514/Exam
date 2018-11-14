@@ -59,7 +59,7 @@ public class SearchPage extends BasePage {
      * go through each search result
      * @return list of search results
      */
-    public List<String> getSearchResults() {
+    private List<String> getSearchResults() {
         List<String> searchResultStringList = new ArrayList<String>();
         for (WebElement searchResult:
                 searchResults) {
